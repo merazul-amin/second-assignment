@@ -87,8 +87,6 @@ body {
 /* -----------------------Blogs----------------------------------- */
 
 
-.blog-section {}
-
 .all-container {
     width: 90%;
     margin: auto;
@@ -201,6 +199,10 @@ body {
 /* -----------------------Upcoming Match----------------------------------- */
 .matchs-container {
     grid-column-gap: 50px;
+}
+
+.match-control {
+    width: 25%;
 }
 
 .match-container {
@@ -356,7 +358,7 @@ nav ul li a {
 
     .blogs-container {
         grid-template-columns: 1fr;
-        clear: both;
+        clear: left;
     }
 
     .tabs {
@@ -386,6 +388,7 @@ nav ul li a {
 
     .control-of-page {
         margin-bottom: 30px;
+
     }
 }
 
@@ -420,7 +423,6 @@ nav ul li a {
     }
 
     .tabs {
-        /* width: 90%; */
         margin: auto;
         flex-direction: row;
         background-color: white;
@@ -428,14 +430,17 @@ nav ul li a {
     }
 
     .control-of-page {
+        width: 99%;
+        margin: auto;
         margin-bottom: 25px;
     }
 
-    .tabs p {
 
+    .tabs p {
         margin-right: 20px;
         justify-content: space-between;
         box-shadow: 2px 1px 10px 3px gray;
+        font-size: 18px;
     }
 
     .view-all {
