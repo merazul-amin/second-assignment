@@ -90,10 +90,8 @@ body {
 .blog-section {}
 
 .all-container {
-    display: flex;
     width: 90%;
     margin: auto;
-
 }
 
 .blogs-container {
@@ -104,6 +102,7 @@ body {
 
 
 .control-of-page {
+    float: left;
     width: 30%;
     margin: auto;
     background-color: #2b6777;
@@ -255,7 +254,7 @@ footer {
     margin-top: 50px;
 }
 
-footer hr {}
+
 
 footer h1 {
     color: white;
@@ -357,12 +356,14 @@ nav ul li a {
 
     .blogs-container {
         grid-template-columns: 1fr;
+        clear: both;
     }
 
     .tabs {
         flex-direction: column;
         background-color: white;
         border-radius: 0;
+        clear: both;
     }
 
     .tabs p {
@@ -378,8 +379,10 @@ nav ul li a {
     }
 
     .all-container {
+        display: flex;
         flex-direction: column;
     }
+
 
     .control-of-page {
         margin-bottom: 30px;
@@ -407,6 +410,8 @@ nav ul li a {
     }
 
     .all-container {
+        clear: both;
+        display: flex;
         flex-direction: column;
     }
 
