@@ -365,6 +365,7 @@ nav ul li a {
     .blogs-container {
         grid-template-columns: 1fr;
         clear: left;
+        grid-row-gap: 50px;
     }
 
     .match-container {
